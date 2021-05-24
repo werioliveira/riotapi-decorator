@@ -25,7 +25,6 @@ abstract class Player {
     public getPlayer() {
         return Player
     }
-    public async setData(){}
        
 
 }

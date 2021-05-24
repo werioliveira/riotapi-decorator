@@ -1,7 +1,7 @@
 import PlayerDecorator from './PlayerDecorator'
 import * as api from '../utils/api'
 export default class RankingPlayer extends PlayerDecorator{
-    constructor(player){
+    constructor(player: any){
         super()
         this.id = player.id
         this.name = player.name
